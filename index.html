@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WordCrush</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>WordCrush</h1>
+	</header>
+	<div class="card">
+		<p>Type the words in <span id="seconds">5</span> Seconds</p>
+		<h2 id="current-word">hello</h2>
+
+		<input type="text" name="" placeholder="Start Typing..." id="word-input" autofocus>
+
+		<h4 id="message"></h4>
+
+		<h3>Time Left: <span id="time">5</span> </h3>
+		<h3>Score: <span id="score">0</span> </h3>
+		<h2> HighScore : <span id="highscore">0</span></h2>
+
+		<!-- <h4>Instruction</h4>
+		<p>
+			WordCrush is a simple typing game
+			You get five seconds to type a letter.
+			If you type it correctly, you get a Point.
+			But if you fail to type the word correctly within given time, the game is over. 
+			You can restart the match By clicking Restart button (Button will appear if you lose).
+			Your HIghest Score will be saved.
+		</p>  -->
+		<button onclick="myfun()">Restart</button>
+	</div>
+	
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
